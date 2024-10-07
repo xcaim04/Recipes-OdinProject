@@ -27,3 +27,8 @@ h1 {
     text-shadow: 2px 0cap rgba(0, 0, 0, 0.81);
     margin: 15px;
 }
+.container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}

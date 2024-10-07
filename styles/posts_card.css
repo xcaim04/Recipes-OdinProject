@@ -1,0 +1,27 @@
+.post-recipe {
+    width: 400px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: .5px .5px .5px rgba(0, 0, 0, 0.519);
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.post-recipe:hover {
+    width: 410px;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
