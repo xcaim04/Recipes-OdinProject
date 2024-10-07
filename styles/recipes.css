@@ -45,7 +45,24 @@ img {
 }
 
 @media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     .text {
         font-size: 20px !important;
+    }
+    body {
+        margin: 30px 5px;
+    }
+
+    li {
+        list-style-type: circle;
+        margin: 15px;
+    }
+
+    .container-text {
+        line-height: 2.5;
     }
 }
