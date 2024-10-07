@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    width: 100%;
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 3rem;
+    color: firebrick;
+    text-shadow: 2px 0cap rgba(0, 0, 0, 0.81);
+    margin: 15px;
+}

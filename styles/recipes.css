@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 60px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.text {
+    color: firebrick;
+    font-size: 50px;
+}
+
+#container {
+    padding: 0 20%;
+}
+
+.header {
+    text-align: center;
+}
+
+
+.container-text {
+    font-weight: bold;
+    line-height: 2;
+    font-size: 20px;
+}
+
+ul.container-text,
+ol.container-text {
+    margin: 20px;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    max-width: 60vw;
+    border-radius: 20px;
+    border-color: aliceblue;
+}
+
+@media (max-width: 600px) {
+    .text {
+        font-size: 20px !important;
+    }
+}
